@@ -1,3 +1,14 @@
-body {
-  margin: 0;
+@import "./_body";
+@import "./_header";
+@import "./_nav";
+@import "./_catalog";
+@import "./_card";
+@import "./_stars";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
 }

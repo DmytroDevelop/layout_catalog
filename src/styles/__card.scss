@@ -1,0 +1,90 @@
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  width: 200px;
+
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+
+  &__image {
+    width: 160px;
+    height: 134px;
+    margin: 32px 19px 40px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 16px 4px;
+    color: #060b35;
+  }
+
+  &__product-cod {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    display: block;
+    color: #616070;
+  }
+
+  &__feedback {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  &__price-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16px 16px;
+  }
+
+  &__price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #616070;
+  }
+
+  &__price-sum {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  &__link {
+    display: block;
+    text-transform: uppercase;
+    background-color: #00acdc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 38px;
+    margin: 0 16px 16px;
+    border: 1px solid #00acdc;
+    transition: 0.5s;
+  }
+
+  &__link:hover {
+    color: #00acdc;
+    background-color: #fff;
+    border: 1px solid #00acdc;
+  }
+
+  &__reit {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+  }
+}
