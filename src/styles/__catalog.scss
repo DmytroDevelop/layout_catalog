@@ -2,10 +2,12 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: auto;
     
   max-width: 1200px;
-  margin: auto;
+  
   &__item {
     margin: 0 24px 46px;
+    padding: 0 16px;
   }
 }

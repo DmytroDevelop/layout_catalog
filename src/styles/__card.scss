@@ -2,6 +2,7 @@
 .card {
   display: flex;
   flex-direction: column;
+ 
 
   width: 200px;
 
@@ -9,27 +10,30 @@
   border-radius: 5px;
 
   &__image {
+    margin: 32px 3px 40px;
     width: 160px;
     height: 134px;
-    margin: 32px 19px 40px;
+    
   }
 
   &__title {
+    margin-top: 0;
+    margin-bottom: 4px;
+
     font-weight: 500;
     font-style: normal;
     font-size: 12px;
     line-height: 18px;
-    margin: 0 16px 4px;
     color: #060b35;
   }
 
   &__product-cod {
+    display: block;
+    margin-bottom: 16px;
+
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
-    margin-bottom: 16px;
-    margin-left: 16px;
-    display: block;
     color: #616070;
   }
 
@@ -42,7 +46,7 @@
   &__price-block {
     display: flex;
     justify-content: space-between;
-    margin: 0 16px 16px;
+    margin-bottom: 16px;
   }
 
   &__price {
@@ -60,22 +64,25 @@
 
   &__link {
     display: block;
-    text-transform: uppercase;
-    background-color: #00acdc;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
+    margin-bottom: 16px;
+
     font-size: 14px;
     font-weight: bold;
     text-align: center;
     line-height: 38px;
-    margin: 0 16px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    
+    border-radius: 5px;
+    background-color: #00acdc;
     border: 1px solid #00acdc;
     transition: 0.5s;
   }
 
   &__link:hover {
     color: #00acdc;
+
     background-color: #fff;
     border: 1px solid #00acdc;
   }
@@ -83,8 +90,6 @@
   &__reit {
     display: flex;
     justify-content: space-between;
-    margin-left: 16px;
-    margin-right: 16px;
     margin-bottom: 24px;
   }
 }
