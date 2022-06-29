@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: auto;
     
   max-width: 1200px;
   
@@ -10,4 +9,8 @@
     margin: 0 24px 46px;
     padding: 0 16px;
   }
+}
+
+.body__catalog {
+  margin: auto;
 }
